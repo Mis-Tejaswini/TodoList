@@ -1,0 +1,89 @@
+#root{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("Img/bgimg.jpeg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: inherit;
+    width: 100%;
+    height: 100vw;
+}
+.main_div{
+   /* background-color: #bdb051f0; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 140px;
+   position: absolute;
+}
+
+.child_div{
+    background-color:  #e05194; 
+    background-attachment: fixed;
+    background-position: center;
+    margin: 33px 600px 0px 0px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    width: 25pc;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    position: relative;
+    top: 27px;
+    left: 110px;
+}
+img{
+    width: 150px;
+    height: 110px;
+}
+.why,.eachItem{
+    display: flex;                        
+    flex-direction: row;
+    align-items: center;
+    outline: 1px solid rgb(206, 201, 201);
+    border-radius: 3px;
+    background-color: white;
+    width: 310px;
+    height: 35px;
+    justify-content: space-between;
+    margin: 15px;
+
+}
+
+input{
+    width: 230px;
+    height: 25px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5px;
+}
+.iconss{
+   padding-right: 5px;
+   
+}
+.iconsss{
+margin-left: 165px;
+}
+
+
+ .eachItemName{
+    font-size: 18px;
+    font-weight: 900;
+    padding: 5px;
+ }
+.remove-btn{
+    width: 100px;
+    height: 40px;
+    margin-left: -20px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+i{
+    cursor: pointer;
+    
+}
+
+
